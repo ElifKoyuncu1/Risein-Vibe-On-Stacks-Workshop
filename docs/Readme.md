@@ -39,6 +39,87 @@ Hiçbir merkezî otorite bu defteri kontrol etmez – herkesin elinde birer kopy
 
 
 
+# 🧱 How Bitcoin Works: The Blockchain Architecture
+
+## 🔗 Blockchain Nedir?
+
+Bitcoin, işlemlerin sıralı şekilde tutulduğu bir zincir sistemi üzerinde çalışır:  
+**Blockchain = Blok + Zincir**  
+Her blok, birçok işlemi içerir ve bu bloklar birbirine sırayla bağlanır.
+
+Bu yapı, tüm işlemlerin **herkese açık ve kalıcı bir dijital defter** (ledger) üzerinde saklanmasını sağlar.
+
+---
+
+## 🧩 Bitcoin Mimarisi: Temel Bileşenler
+
+- **Nodes (Düğümler):** Ağa katılan ve işlemleri doğrulayıp ileten bilgisayarlardır.  
+- **Miners (Madenciler):** Yeni bloklar üretmek için yarışan özel node'lardır. Kazanan ödül kazanır.  
+- **Transactions (İşlemler):** Bitcoin adresleri arasında yapılan transferlerdir. Kriptografik olarak imzalanır.  
+- **Blocks (Bloklar):** Yaklaşık her 10 dakikada bir eklenen, işlemlerden oluşan veri gruplarıdır.  
+- **Consensus Rules (Uzlaşma Kuralları):** Ağın doğru ve aynı fikirde kalmasını sağlayan kurallardır.
+
+---
+
+## 🔐 Proof of Work (PoW): Bitcoin’in Güvenlik Mekanizması
+
+### ✅ Konsensüs Nedir?
+
+- **Konsensüs**, ağdaki tüm katılımcıların “şu anda sistemin durumu budur” konusunda **anlaşmasıdır**.  
+- Konsensüs protokolleri, iyi davranışı ödüllendirip kötü davranışı cezalandırır.
+
+### ⚙️ PoW Nasıl Çalışır?
+
+**Blok Üretimi:**
+
+- Madenciler zor bir matematik problemi (NP problemi) çözmek için yarışırlar.
+- Çözüm zordur ama doğrulaması kolaydır.
+- İlk çözen, yeni bloğu üretir ve ödül olarak Bitcoin alır.
+- Bu yarışma her blokta yeniden başlar.
+
+**Ağ Güvenliği:**
+
+PoW sistemi şu yollarla ağı korur:
+
+- 🟢 **Pozitif Teşvik:** Dürüst madenciler BTC ödülü kazanır.  
+- 🔴 **Negatif Teşvik:** Hile yapanlar boşuna enerji harcar ve hiçbir şey kazanamaz.  
+- 💰 **Ekonomik Engel:** Ağa hükmetmek için milyarlarca dolar gerekir.
+
+### 🛡️ Sybil Direnci Nedir?
+
+- PoW, tek bir kişinin sahte kimliklerle sisteme sızmasını (Sybil Attack) engeller.
+- Çünkü başarı, kimlik sayısına değil, sahip olunan **donanım gücüne** bağlıdır.
+
+---
+
+## 🔁 Zincir Seçimi ve İşlem Onayı
+
+- Aynı anda iki farklı geçerli blok çıkarsa, geçici bir çatallanma olur.
+- Ağ, **"en uzun zincir"** kuralını uygular. En fazla iş ispatı yapılan zincir kazanır.
+- İşlemler, üzerine yeni bloklar eklendikçe kesinleşir. Genelde **5-6 blok sonrası** güvenli kabul edilir.
+
+---
+
+## 🚧 Bitcoin’in Sınırları ve Geleceği
+
+### 🔒 Sınırlamalar:
+
+- Bitcoin’in betik dili **Turing-complete değildir**. (Yani akıllı kontratlar sınırlı yapılabilir)
+- Bu, güvenliği ve sadeliği ön planda tutmak için kasıtlı bir tercihtir.
+
+### 🚀 Genişleme Çabaları:
+
+- **Ethereum** gibi platformlar daha esnek uygulamalar sunar.
+- Ancak Bitcoin, hâlâ **dünyanın en büyük ve güvenli merkeziyetsiz ağıdır.**
+- **Stacks** gibi 2. katman çözümleri sayesinde, artık Bitcoin üzerine daha gelişmiş uygulamalar inşa edilebiliyor.
+
+---
+
+> Bitcoin = Güvenlik + Şeffaflık + Merkeziyetsizlik  
+> Ama ölçeklenebilirlik ve programlanabilirlik için yeni katmanlar geliştiriliyor.
+
+
+
 
 # Clarity, Clarinet ve VS Code Extension Hakkında
 
