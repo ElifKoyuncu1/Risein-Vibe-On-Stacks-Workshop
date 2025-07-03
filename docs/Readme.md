@@ -119,6 +119,67 @@ PoW sistemi şu yollarla ağı korur:
 > Ama ölçeklenebilirlik ve programlanabilirlik için yeni katmanlar geliştiriliyor.
 
 
+# ⚙️ Layer 1 vs Layer 2: Blockchain Ölçeklenebilirlik Katmanları
+
+## 🧱 Layer 1 Nedir?
+
+Layer 1 blokzincirleri, sistemin temelidir.  
+🔹 Örnekler: **Bitcoin**, **Ethereum**  
+🔐 Güvenlik ve merkeziyetsizlik önceliklidir.
+
+### 🧨 Ama sorunlar var:
+
+| Sorun | Açıklama |
+|------|----------|
+| ⏳ **Yavaşlık** | Tüm işlemler ağdaki her node tarafından onaylanmalı. Bitcoin'de blok süresi 10-12 dakika. |
+| 💸 **Yüksek Ücretler** | Blok kapasitesi sınırlı olduğu için yoğunlukta işlem ücreti 40 dolara kadar çıkabilir. |
+| 📉 **Ölçeklenememe** | Güvenlik ve merkeziyetsizlik sağlansa da hız ve kullanıcı deneyimi zayıf kalır. |
+
+Bu yüzden Layer 1'ler, günlük alışveriş ya da hızlı uygulamalar için **verimli değildir**.
+
+---
+
+## 🚀 Layer 2 Nedir?
+
+**Layer 2**, Layer 1 üzerine kurulan ayrı bir zincirdir.  
+Ama güvenliği Layer 1’den alır.  
+🎯 Amaç: **Hız, düşük ücret ve ölçeklenebilirlik**
+
+### ✅ Avantajlar:
+
+| Özellik | Açıklama |
+|--------|----------|
+| ⚡ **Hız** | Layer 2, işlemleri çok daha hızlı işler. |
+| 💰 **Düşük Ücret** | Layer 1’e göre işlem ücretleri çok daha ucuzdur. |
+| 🔐 **Güvenli Kalır** | Zaman zaman Layer 1’e “durum raporu” göndererek onun güvenliğini miras alır. |
+
+---
+
+## 🧠 Nasıl çalışır?
+
+Layer 2, işlemleri kendi zincirinde işler.  
+Ama belirli aralıklarla, bu verileri Layer 1'e “yazar”.  
+Bu sayede:
+
+- Her işlem için Layer 1’i meşgul etmez  
+- Ama sahtekarlık olursa Layer 1'e gidip müdahale edebilir
+
+---
+
+## 🎯 Sonuç:
+
+| Katman | Odak | Hız | Ücret | Uygulama Tipi |
+|--------|------|-----|--------|----------------|
+| Layer 1 | Güvenlik + Merkeziyetsizlik | Düşük | Yüksek | Uzun vadeli kayıtlar (BTC transferi gibi) |
+| Layer 2 | Hız + Kullanıcı Deneyimi | Yüksek | Düşük | Günlük işlemler, dApp'ler, oyunlar |
+
+---
+
+> Layer 1 sağlam temeldir.  
+> Layer 2 onun üstüne inşa edilen hızlı, pratik katmandır.
+
+
+
 
 
 # Clarity, Clarinet ve VS Code Extension Hakkında
