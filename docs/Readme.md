@@ -1,3 +1,45 @@
+# 🪙 Introduction to Bitcoin
+
+## 📌 What is Bitcoin?
+
+**Bitcoin**, merkezî olmayan (decentralized) dijital bir para birimidir.  
+Yani bir banka, devlet veya aracı kuruma bağlı değildir.
+
+## 🔐 How is Bitcoin secured?
+
+Bitcoin ağı, **kriptografi (şifreleme)** ile güvence altına alınır.  
+Kullanıcı cüzdanları, işlemler ve varlıklar güçlü matematiksel algoritmalarla korunur.  
+Bu sistem sayesinde izinsiz erişim veya müdahale mümkün değildir.
+
+## 📖 What is the ledger?
+
+Bitcoin’de tüm işlemler **herkese açık bir dijital defterde (ledger)** saklanır.  
+Bu deftere **blockchain** (blok zinciri) denir.  
+Hiçbir merkezî otorite bu defteri kontrol etmez – herkesin elinde birer kopya vardır.
+
+## 🏦 Bitcoin vs Traditional Money
+
+| Özellik                    | Geleneksel Para (TL, Dolar)   | Bitcoin                        |
+|----------------------------|-------------------------------|--------------------------------|
+| Kontrol                   | Merkez Bankası                | Kimse                          |
+| Arz                      | Artırılabilir (para basılır) | 21 milyon ile sınırlı         |
+| Müdahale                 | Hesap dondurulabilir         | Kimse müdahale edemez         |
+| Sansür                   | Mümkün                        | Sansüre karşı dirençli        |
+
+## 🎯 Why is Bitcoin different?
+
+- Kod tarafından çalıştırılır, insan faktöründen bağımsızdır.
+- Kurallar şeffaftır, keyfî değiştirilemez.
+- Gücün tek elde toplanmasına karşı dirençlidir.
+- Finansal özgürlük ve sansürsüzlük sağlar.
+
+---
+
+> Bitcoin, matematiksel doğruluk ve yazılım ile çalışan bir para sistemidir.
+
+
+
+
 # Clarity, Clarinet ve VS Code Extension Hakkında
 
 **Clarity**: Bir blockchain programlama dili. Akıllı sözleşmeler yazmak için kullanılıyor. Akıllı sözleşme, blockchain üzerinde otomatik çalışan, kuralları yazılı kodlarla belirlenmiş programlar.  
