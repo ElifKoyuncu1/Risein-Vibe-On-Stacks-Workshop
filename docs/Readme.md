@@ -178,6 +178,107 @@ Bu sayede:
 > Layer 1 sağlam temeldir.  
 > Layer 2 onun üstüne inşa edilen hızlı, pratik katmandır.
 
+# 🚀 Stacks: Bitcoin için Layer 2 Çözümü
+
+## 🔑 Stacks Nedir?
+
+Stacks, Bitcoin üzerine inşa edilmiş lider bir Layer 2 ağıdır.  
+Bitcoin’in güvenliğini kullanarak ona **akıllı kontratlar** ve **programlanabilirlik** ekler.
+
+---
+
+## 🧩 Stacks Özellikleri (STACKS Kısaltması)
+
+- **S**: Bitcoin’in tüm hash gücüyle güvence altındadır  
+- **T**: Güven minimize edilmiş Bitcoin bağlantısı (peg) mekanizması  
+- **A**: Atomic BTC swapları ve BTC adreslerinin sahip olduğu varlıklar  
+- **C**: Güvenli ve kararlı akıllı kontratlar için Clarity dili  
+- **K**: Bitcoin durumunun tam bilgisi  
+- **S**: Hızlı, ölçeklenebilir ve düşük maliyetli işlemler, Bitcoin’de kayıt altına alınır
+
+---
+
+## 🏛️ Mimari
+
+| Katman           | Görev                                  |
+|------------------|---------------------------------------|
+| Foundation Layer | Bitcoin: Güvenlik ve güven sağlar     |
+| Middle Layer     | Stacks: Akıllı kontratlar ve programlama |
+
+---
+
+## 🔄 Bitcoin ile Etkileşim
+
+- Stacks uygulamaları, Bitcoin blockchain üzerindeki işlemleri okuyabilir ve tetikleyebilir  
+- sBTC (Stacks’te 1:1 Bitcoin temsili token) ile doğrudan Bitcoin likiditesine erişim sağlar  
+- Bu sayede geliştiriciler, Bitcoin ağının trilyon dolarlık likiditesini kullanabilir
+
+---
+
+## 🔐 Proof of Transfer (PoX) Konsensüsü
+
+- Bitcoin madenciliğindeki Proof of Work’ün aksine, PoX madencilerin BTC transfer ederek yarıştığı bir modeldir  
+- İki grup katılımcı var:  
+  - **Madenciler:** BTC transfer ederek blok üretme hakkı kazanır, STX token ödülü alır  
+  - **Stacker’lar:** STX tokenlarını kilitleyip madencilerden BTC ödülü alırlar  
+
+---
+
+## 🗳️ Seçim ve Blok Üretimi
+
+- Madenciler BTC transfer ederek yarışır  
+- BTC transferi miktarına göre rastgele bir madenci seçilir  
+- Seçilen madenci, blok üretme hakkı kazanır ve STX kazanır  
+- Stackerlar ise BTC ödülü alır
+
+---
+
+## ⛓️ Bitcoin Güvenliği (Finality)
+
+- Her Stacks bloğu, bir Bitcoin bloğuna bağlıdır  
+- Stacks bloklarındaki işlemler hashlenir ve Bitcoin bloğuna kaydedilir  
+- Böylece Stacks işlemleri, Bitcoin blokları kadar güvenli ve geri alınamaz olur
+
+---
+
+## ⚙️ Nakamoto Upgrade
+
+Stacks ağına önemli iyileştirmeler getiren güncelleme:
+
+- Blok üretimi hızlandı, artık Bitcoin bloğu başına birden fazla Stacks bloğu üretiliyor  
+- Forklar (çatallanma) azaldı, güvenlik arttı  
+- Madencilerin ve Stacker’ların doğrulama sorumlulukları arttı  
+
+---
+
+## 👜 Stacks Cüzdan Kurulumu: Leather Wallet
+
+### 1. Leather Uzantısını Kur
+
+- https://leather.io adresine git  
+- “Install Leather now” tıklayıp Chrome Web Store’a yönel  
+- Uzantıyı Chrome veya Brave tarayıcıya ekle  
+- Tarayıcı araç çubuğuna sabitle
+
+### 2. Yeni Cüzdan Oluştur
+
+- Leather ikonuna tıkla  
+- “Create new wallet” seç  
+- Sana 24 kelimelik bir **Secret Key (seed phrase)** verilecek  
+- “Show key” ile gör, mutlaka güvenli bir yere yaz ve sakla!  
+- “I’ve backed it up” ile onayla  
+- Güçlü bir şifre oluştur ve onayla  
+- Cüzdanın hazır!
+
+> **ÖNEMLİ:** Seed phrase’i asla kimseyle paylaşma, yoksa cüzdanına erişim kaybolur.
+
+---
+
+> Stacks, Bitcoin’in gücünü kullanarak hızlı ve güvenli akıllı kontratlar sunar.  
+> Leather cüzdanıyla da kolayca işlemler yapabilirsin.
+
+
+
 
 
 
