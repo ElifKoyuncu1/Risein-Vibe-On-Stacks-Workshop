@@ -302,3 +302,39 @@ Stacks ağına önemli iyileştirmeler getiren güncelleme:
 2. Clarinet ile bu sözleşmeleri bilgisayarında test edebilirsin.  
 3. VS Code eklentisi kod yazmanı kolaylaştırır.
 
+
+## Clarity'de Traits (Özellikler) Nedir?
+
+Clarity'deki Traits, Solidity'deki arayüzler (interfaces) veya Rust'taki traits (özellikler) gibi, akıllı kontratlar için şablonlar ya da arayüzler olarak hizmet eder. Traits, bir kontratın belirli bir standarda uyumlu sayılabilmesi için uygulaması gereken fonksiyon setini tanımlar.
+
+Traits, kontratlar arasında uyumluluğu sağlar ve tutarlı bir API sunmalarını garanti eder. Bu, özellikle farklı token uygulamalarının birlikte çalışabilirliğinin kritik olduğu SIP-010 gibi standartlarda çok önemlidir.
+
+---
+
+### Trait Tanımlama
+
+Trait, `define-trait` fonksiyonu kullanılarak tanımlanır ve gerekli fonksiyon imzalarını belirtir:
+
+```clarity
+(define-trait my-trait
+  (
+    (function-name-1 (param-types-1) response-type-1)
+    (function-name-2 (param-types-2) response-type-2)
+    ;; Ve devamı...
+  )
+)
+```
+
+### Trait Uygulama
+
+Kontratlar, belirtilen trait'e uyduklarını göstermek için `impl-trait` fonksiyonunu kullanarak trait'i uygularlar:
+
+```clarity
+(impl-trait 'ST1HTBVD3JG9C05J7HBJTHGR0GGW7KXW28M5JS8QE.trait-contract.trait-name)
+```
+### Traits'in Önemli Özellikleri
+
+- Bir kontrat birden fazla trait uygulayabilir.  
+- Traits minimum gereksinimleri tanımlar, tam gereksinimleri değil.  
+- Bir kontrat, trait'in gerektirdiklerinin dışında ek fonksiyonlara sahip olabilir.  
+- Traits, fonksiyon imzalarını zorunlu kılar ancak fonksiyonların davranışlarını belirlemez.  
